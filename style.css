@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Hina Mincho', serif;
+    background-color: yellow;
+}
+
+div{
+    display:inline-block ;
+    position: relative;
+    text-decoration: none;
+   }
+
+   td{
+    padding: 100px;
+} 
+
+Img{
+    height: 175px;
+    width: 250px;
+}
+
+
+
+#main-img{
+    height: 250px;
+    width: 525px;
+}
+
+#img5{
+    height: 240px;
+    width: 245px;
+}
+
+#img6{
+    height: 260px;
+    width: 215px;
+}
+
+#img7{
+    height: 200px;
+    width: 200px;
+}
+
+#img8{
+    height: 200px;
+    width: 200px;
+}
+
+#img9{
+    height: 250px;
+    width: 175px;
+}
+
+#img10{
+    height: 175px;
+    width: 200px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.section-container{
+    flex-direction: column;
+    padding: 5%;
+}
+
+.space-between{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+nav{
+    height: 40px;
+    width: 860px;
+    background-color:rgb(45, 128, 45);
+    color: black;
+    padding: 0px 0px;
+    font-size: 19px;
+}
+
+nav>div{
+    padding: 0% 5%;
+}
+
+#nav-img{
+    height: 100px;
+    width: 250px;
+    padding: 0px 0px;
+}
+
+#cart{
+    font-weight: bold;
+    align-items: center;
+}
+
+
+.section{
+    margin: 4% 0%;
+}
+
+.button{
+    cursor: pointer;
+    background-color: #6095ff;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.buy img{
+    width: 20px;
+ height: 20px;
+}
+
+.buy {
+    margin-top: 15px;
+}
+
+#cart-icon1{
+    height: 20px;
+    width: 20px;
+}
+
+
+footer{
+    height: 300px;
+    background-size: 100% 100%;
+    color: white;
+    padding: 0% 5%;
+}
+
+footer img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#details{
+    flex-direction: column;
+    text-align: right;
+}
+
+h1,
+h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+h4{
+    color: grey;
+    font-weight: lighter;
+}
+
+h6{
+    font-size: 17px;
+}
+
+.buy p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3,
+h2{
+margin-bottom: 10px;
+}
+
+.container{
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:600px) {
+    header{
+        height: 200px;
+        font-size: 15px;
+        text-align: start;
+    }
+    header h1{
+        font-size: 4vh;
+    }
+    header h5{
+        font-size: 15px;
+    }
+    .header-text{
+        padding: 0% 60% 5% 5%;
+    }
+    body{
+        text-align: center;
+    }
+    .container{
+        justify-content: center;
+    }
+}
+
